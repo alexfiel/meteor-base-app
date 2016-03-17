@@ -1,2 +1,2 @@
 # meteor-base-app
-Simple meteor appication.
+Simple meteor application.

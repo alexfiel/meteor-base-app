@@ -1,5 +1,29 @@
 <template name="Login">
-  <div class="login">
-    <h1>Find me in app/client/templates/login/login</h1>
-  </div>
+  <div class="container">
+    <div class="login row">
+      <div class="col-md-4 col col-md-offset-4">
+
+        <!-- application logo -->
+        <img src="/logo/login.png" alt="app logo" class="img-responsive center-block">
+        <h3 class="text-center">Application Login</h3>
+
+        <br>
+        
+        <form class="js-login-submit">
+          <div class="input-group form-group">
+            <span class="input-group-addon">Username</span>
+            <input class="form-control" type="text" name="username">
+          </div>
+
+          <div class="input-group form-group">
+            <span class="input-group-addon">Password</span>
+            <input class="form-control" type="password" name="password">
+          </div>
+
+          <button class="btn btn-primary">Submit</button>
+        </form>
+
+      </div> <!-- col-md-4 -->
+    </div> <!-- login row -->
+  </div> <!-- container -->
 </template>

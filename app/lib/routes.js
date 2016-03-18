@@ -16,3 +16,9 @@ Router.route('/login', {
   controller: 'LoginController',
   where: 'client'
 });
+
+Router.route('/admin', {
+  name: 'admin',
+  controller: 'AdminController',
+  where: 'client'
+});

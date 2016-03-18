@@ -1,29 +1,23 @@
 /*****************************************************************************/
-/* Login: Event Handlers */
+/* Admin: Event Handlers */
 /*****************************************************************************/
-Template.Login.events({
-  'submit .js-login-submit': function (event) {
-    var username, password;
-    username = event.target.username.value;
-    password = event.target.password.value;
-    return false;
-  }
+Template.Admin.events({
 });
 
 /*****************************************************************************/
-/* Login: Helpers */
+/* Admin: Helpers */
 /*****************************************************************************/
-Template.Login.helpers({
+Template.Admin.helpers({
 });
 
 /*****************************************************************************/
-/* Login: Lifecycle Hooks */
+/* Admin: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Login.onCreated(function () {
+Template.Admin.onCreated(function () {
 });
 
-Template.Login.onRendered(function () {
+Template.Admin.onRendered(function () {
 });
 
-Template.Login.onDestroyed(function () {
+Template.Admin.onDestroyed(function () {
 });

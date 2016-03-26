@@ -1,5 +1,13 @@
 <template name="Admin">
-  <div class="admin">
-    <h1>Find me in app/client/templates/admin/admin</h1>
+  <div class="admin container-fluid">
+    {{> AdminNav}}
+    <br>
   </div>
+</template>
+
+<template name="AdminNav">
+  <ul class="nav nav-tabs">
+    <li role="presentation" id="usersLink" class="adminLinks"><a href="#">Users</a></li>
+    <li role="presentation" id="rolesLink" class="adminLinks"><a href="#">Roles</a></li>
+  </ul>
 </template>
